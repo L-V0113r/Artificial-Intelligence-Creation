@@ -103,6 +103,29 @@ Agents:
             
         5)Rational Agents
             Choose actions to maximize expected outcomes
+    
+    Types:
+        1)Simple Reflex
+            reacts immediately to inputs without consideration.excel in predictable environments.can react without delay but cannot learn
+
+        2)Model-Based Reflex
+            improve simplex reflex agents by maintaining an internal state of the environment to handle partially observable and changing situations
+
+        3)Goal Based 
+        Choose actions by evaluating future states in relation to defined goals
+
+        4)Utility Based
+            evaluate how desirable different outcomes are using a utility function.This allows them to choose the most optimal action in uncertain or limited recource situations
+
+        5)Learning
+            imrpove performance over time by learning from experience and updateing thier models/strategies
+
+        6)Multi Agent System (MAS)
+            involves multiple agents interacting in a shared environment to achieve individual or collective goals
+
+        7)Hierarchical
+            structure behaviour into layers such as strategic tactical and operational.
+
 
 
 
