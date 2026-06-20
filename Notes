@@ -2,6 +2,114 @@ Research for Python AI and Neural Networks
 
  Basics
 
+    Introduction
+
+    https://www.geeksforgeeks.org/artificial-intelligence/what-is-artificial-intelligence-ai/
+
+    Concepts:
+        1) Machine Learning:
+                Identifies patterns and relationships from data to improve predictions and decisions through experience.Used for recommendation and Prediction
+        
+        2)Generative:
+                Generates new content instead of only analyzing data from learning patterns from massive databases .Used in Chatbots, image generation and content writing tools.
+        
+        3) Natural Language Processing:
+                Enables computers to understand and interpret human languages through translation , sentiment analysis and chatbots. Used for voice assistants 
+        
+        4)Expert Systems:
+                Simulate human decision making and specific domain knowledge using if then rules to mimic reasoning of humans in specific domains. Used in healthcare finance and diagnostics
+    
+    Working:
+        1)Data Collection:
+            AI systems require large sets of data to learn etc
+        
+        2)Processing and Learning:
+            Uses algorithms to analyze data and identify patterns
+        
+        3)Model Training:
+            Trained using the data adjusting its settings to improve predictions . more data leads to more accurate and better at recognizing 
+        
+        4)Decision Making:
+            Once trained ,can use what it learned to make decisions
+        
+        5)Feedback and Improvement:
+            Models can be improved through feedback  such as reinforcement learning
+    
+    Types Of AI:
+        Capability
+            1)Narrow
+                Designed for specific tasks such as recognition or recommendation
+        
+            2)General AI
+                Theoretical AI capable of performing human like intelligence in multiple domains
+        
+            3) SuperIntelligent AI
+                Hypothetical AI that surpasses human intelligence i reasoning and decision making
+        
+        Functionality
+            1)Reactive Machines
+                systems that respond only to current inputs without storing other experiences
+            
+            2)Limited Memory
+                use past data and observations to improve future decisions
+            
+            3)Theory of Mind
+                theoretical AI that could understand human emotions beliefs and intentions
+            
+            4)Self Aware
+                Hypothetical AI with consciousness and awareness of its own existence
+            
+    AI Models:
+        1)Supervised
+            Training is based on labeled data with clear input output pairs to learn relationships reducing prediction errors
+        
+        2)Unsupervised
+            works with unlabeled data to identify hidden patterns and trends automatically , discovering structures within databases
+        
+        3)Reinforcement Learning Models
+            AI learns by interacting with an environment using rewards and penalties as feedback.Optomising decisions through trial and error
+    
+    Agents:
+        Agents operate with a degree of autonomy to completeassigned tasks effectively
+        
+        Features
+            1)Autonomous
+                Act without constant human input and decide next steps using past data
+            
+            2)Goal Driven
+                optomise for defined objectives
+            
+            3)Perceptive
+                gather info from sensors , inputs or APIs 
+            
+            4)Adaptable
+                Adjust strategies when situations change
+            
+            5)Collaborative
+                works with hymans or other agents toward shared goals
+
+        Classification:
+            1)Reactive
+                respond to stimulo without foresight or planning
+            
+            2)Proactive
+                Anticipate future states and plan actions to achieve long term goals
+            
+            3)Single Agent
+                one agent to solve a problem independently
+            
+            4)Multi Agent
+                multiple agents interact coordinate or compete to achieve goals
+            
+            5)Rational Agents
+                Choose actions to maximize expected outcomes
+
+
+
+
+
+
+
 
 
 
