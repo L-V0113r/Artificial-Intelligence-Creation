@@ -228,6 +228,9 @@ Problem Solving:
                 performance dependant on quality if function
                 small beam width can remove potentially useful solutions
                 Large beam width increases computation time 
+    
+    Adversial Search:
+        
 
         
 
