@@ -230,6 +230,78 @@ Problem Solving:
                 Large beam width increases computation time 
     
     Adversial Search:
+        when two or more agents have conflicting goals. adversial search can be used in two player sero sum games.Means  whats good for one player is bad for another no win win.used for competitive environments
+
+        Used for:
+            1)each agent boosts their own utility or minimize their loss
+
+            2)One agents actions impacts the outcomes and objectives of other agents
+
+            3)Strategic uncertainty arises when the agents may lack sufficient information
+        
+        Minimax:
+            a recursive or backtracking algorithm responsible for choosing the best move in the conflicting environment.uses a game tree structure
+
+            leaf nodes accomodate all possible moves game state denotes the current board conditions with every move
+
+            algorithm proceeds down the tree until it reaches a leaf node then goes back as recursion unwinds.prime motive of the minimax algorithm is to maximize the chance of winning.higher weights lead to higher chances of winning
+
+            1) Minimax Tree
+                tree structure shows all possible moves and game states in a game
+            
+            2)MAX
+                seeks favourable outcomes in games by maximizing their chance of winning
+            
+            3)Min
+                reduces winning chances making moves leading to least favourable outcomes
+            
+            4)Initial state
+                Starting state of game board representing configuration at beginning of the game
+
+            5)Terminal state
+                final outcomes of a game board resulting in win loss or draw
+            
+            6)Heuristic evaluation Function
+                evaluates a game state for the maximizer assigning numerical values to each state based on peice positions
+        
+        Alpha beta pruning:
+            optimization for minimax reducing computation time
+            Max Value(state,alpha,beta)
+
+            alpha:
+                denotes the value of the best or highest value
+            
+            beta:
+                denotes the value of the best or lowest value
+
+            1)Branch elimination:
+                the alpha beta pruning algorithm relies on the branches of the game tree that can be eliminates which promotes more promising subtrees (eliminate bad sections)
+            
+            2)Branch and bound:
+                branch and bound which offers a way to solve the optimisation problem by dividing them into sub problems
+            
+            3)Heuristic improvements:
+                to limit computation time, the heuristic alpha beta tree search cuts off the search early and applies the heuristic evaluation function
+    
+    Constraint Propogation:
+        technique used to solve CSPs Constraint satisfaction Problems reducing the possible values of variables using constraints to narrow the search space
+
+        eliminate invalid values from variable domains
+        Reduces complexity of csps
+
+        Concepts:
+            1)Variables
+                variables represent the unknowns in a problem
+            
+            2)Domains
+                set of all possible valuse that can be assigned to a variable.Constraint propogation reduces these domains by removing values that violate constraints
+            
+            3)Constraints
+                rules that define valid relationships between variables and restrict unacceptable value combinations
+    
+    Backtracking Search and its role:
+        a depth first search algorithm that builds a solution by trying possible assignments
+        abbandons a possible solution if it determines it cannot lead to the final solution 
         
 
         
