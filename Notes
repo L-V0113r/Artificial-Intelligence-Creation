@@ -301,7 +301,154 @@ Problem Solving:
     
     Backtracking Search and its role:
         a depth first search algorithm that builds a solution by trying possible assignments
-        abbandons a possible solution if it determines it cannot lead to the final solution 
+        abbandons a possible solution if it determines it cannot lead to the final solution .it builds the solution incrementally
+
+        Hidden tech:
+            1)Forward checking
+                after assigning to a variable eliminate inconsistenet values from the domains of the unassigned
+            
+            2)Constraint Propogation
+                reduce search space by local enforcement
+            
+            3)Heuristics
+                used to choose next variable to assign the next value to try
+
+    Knowledge,Reasoning and Planning:
+        Representation:
+           how machines store and organise real world information so they can work
+
+            Types:
+                1)Declarative
+                    knowledge about facts and concepts(it is what it is)
+                
+                2)Procedural
+                    how to perform a task or solve a problem
+                
+                3)Meta
+                    Knowledge about other knowledge or how knowledge is used
+                
+                4)Heuristic
+                    Based on experience from the AI or rules of thumb
+                
+                5)Structural
+                    knowledge on relationships between concepts
+            
+            Logical representation:
+                formal rules and logic to represent knowledge, drawing conclusions off of given conditions
+
+                Concepts:
+                    1)Propositions
+                        statement which is true or false
+                    
+                    2)Connectives
+                        And or Not implies If onlyif etc
+                    
+                    3)Truth Tables
+                        its a truth table showing truth values for input combinatino
+                    
+                    4)Tautology,Contridiction.contingency
+                        things that are True no matter what,always false no matter what, true or false depending on input
+
+            Semantic Network:
+                represent knowledge using a graph structure with nodes and arcs
+
+                Components:
+                    1)Lexical
+                        Nodes represent concepts and labels identify and describe meaning
+                    
+                    2)Structural
+                        Edges connect nodes and represent relationships between concepts,Types of relationship between objects
+                    
+                    3)Semantic
+                        Meaning of nodes and interpretation of relationships
+                    
+                    4)Procedural
+                        Inference rules to create new knowledge
+                        Querey to retrieve information based on conditions or searches
+                        Update to add or modify knowledge over time
+                
+                Types:
+                    Definitional
+                        represent heirarchichlle
+                    
+                    Assertional
+                        represent facts or propertoes
+                    
+                    Implicational
+                        represent logical relationships
+                    
+                    Executable
+                        represent procedural knowledge and sequences of actions that can be taken
+                    
+                    Learning
+                        update relationships and knowledge with new information learned over time
+                    
+                    Hybrid
+                        combine features of multiple network type for more flexible system
+            
+            Frame Representation:
+                oop for information(represent knowledge using attributes etc)organises related information
+
+                Components:
+                    1)Slots
+                        the attributes used to describe a frame
+                    
+                    2)Facets
+                        provide extra detail about slots
+                    
+                    3)Default values
+                        values when no specific value given
+
+                    4)Procedures
+                        actions or functions linked with a frame that defines how stored information should be processed
+            
+            Production Rules:
+                represent knowledge using production rules(if then)
+            
+            Ontologies:
+                represent knowledge in a structured way
+
+                Components:
+                    1)Classes
+                        represent categories or groups of similar objects
+                    
+                    2)Instances
+                        specific types of class
+                    
+                    3)Properties
+                        charachter or attributes of a class
+                    
+                    4)Relationships
+                        Define how different classes are conected
+                    
+                    5)Constraints and rules
+                        define conditions and restrictions within
+        First Order Logic:
+            used to represent objects relationships and rule in a structures way,extends propositional logic
+
+            Components:
+                1)Constants
+                    represent specific objects or entities
+                
+                2)Variables
+                    represent unspecified objects
+                
+                3)Predicates
+                    define properties or relationships
+                
+                4)Functions
+                    map objects to other objects
+                
+                5)Quantifiers
+                    define the scope of other variables
+            
+            Representation:
+                the representation of knowledge through facts object and relationships using logical expressions
+            
+            inference:
+                logical patterns used to derive valid conclusions from given premises
+
+
         
 
         
