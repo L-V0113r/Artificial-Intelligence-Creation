@@ -452,7 +452,171 @@ Problem Solving:
                     1)Law of detachment
                         if a statement is true its conditions is satisfied so the conclusion is true
                     
-                    2)
+                    2)Law of Contrapositive
+                        if a conditional statement is true and its consequent is false then its antecedent must also be false
+
+                    3)Hypothetical Syllogism
+                        if two confitional statements are true where the consequent of the first is the antecedent of the second then a combination of the first antecedent and second consequence is also true
+                
+                    4)Disjunctive syllogism
+                        if a ot statement is true and one input is false the other must be true
+                    
+                    5)Conjunction 
+                        if two statements are true then their conjunction is also true
+                    
+                    6)Simplification
+                        if an and statement is true then each of its conjuncts is also true
+                    
+                    7)Addition
+                        if a statement is true then the disjunction of that statement with another is also true
+                    
+                    8)Absorption
+                        if a conditional statement is true then the antecedent implies a conjunction of itself and the consequent
+
+                    9)Resolution
+                        if two disjunctions are true and one contains a proposition while the other contains its negation then the disjuntion of the remaining parts is true 
+    Reasoning:
+        the process that allos analyzing of information and draw conclusions from data etc.enable human like thinking
+
+            Types:
+                1)Deductive 
+                    derives conclusions from general rules or facts
+                    uses laws of inference
+                
+                2)Inductive
+                    forms rules based on specific observations or data patterns
+                
+                3)Abductive
+                    identifies the most likely explanation for the observed data
+                
+                4)Analogical
+                    compares current problems to similar past problems to solve 
+                
+                5)Probabilistic
+                    handles uncertainty using probabalistic models
+                
+                6)Commonsense
+                    uses real world knowledge to make judgements and understand everyday things
+                
+                7)Spatial
+                    seals with understanding the area that you are in
+                
+                8)Temporal
+                    focus on time based informaiton like sequences and scheduling
+
+                9)Fuzzy
+                    works with continuos data (not true or false) allows partial truths
+
+                    Concepts:
+                        1)Membership functions
+                            defines how strongly an input value belongs to a fuzzy set by assigning a degree of membership
+
+                            Common:
+                                Singleton
+                                    represents a single crips value at one point
+                                
+                                Gaussian
+                                    uses a bell curve for gradual changes
+                                
+                                Trapezoidal
+                                    uses straight line shapes to define gradual increase
+                        
+                        2)Fuzzy control
+                            a method of designing systems that make decisions similar to human reasoning
+    Planning:
+        creating a sequence of actions that helps achieve a specific goal from an initial state
+
+        Classical planning:
+            assumes a fully observable and determenistic environment with full knowledge of the system
+
+            Forwars State Space Planning:
+                starts from an initial and explores actions toward the goal
+                uses different searches (BFS,DFS,A*)
+
+                Concepts:
+                    1)Initial State
+                        represents its current conditio0n
+
+                    2)Actions
+                        steps the system can take to change its state
+
+                    3)State Exploration
+                        explores all possible states the system can transition into by applying different actions
+                        
+                    4)Goal
+                        the target state or condition
+
+            Backward State Space Planning:
+                Starts at goal state and works backword toward initial
+        
+        Probabalistic:
+            handles environments with uncertainty where some actions might have unpredictable outcomes
+
+            Markov Decision Process:
+                a framework for decision making under uncertainty formulated by a tuple representing multiple states
+
+                Components:
+                    1)States
+                        a situation or condition the agent can be in
+                    
+                    2)Actions
+                        sonething the agent can do
+                    
+                    3)Transition Model
+                        what happens when an action is taken in a state
+                        adds stochastic transition
+                    
+                    4)Reward
+                        number given to agent once an action is taken to inform it of the result of the action
+                    
+                    5)Policy
+                        the agents plan that it creates
+        
+        Reactive:
+            Dynamic real time responses with no fixed plans requiring continuos senses of the environment
+        
+        Hierarchical
+            uses decomposition to reuce intensity of large tasks into smakker sub tasks
+        
+    Representing knowledge with uncertainty:
+        Uncertain Domain:
+            an uncertain domain refers to an environment where information is incomplete or unpredictable
+
+            occuration:
+            occurs when there is
+            incomplete informaation
+            ambiguity
+            Noise
+            Stochastic Processes(probabalysitc outcomes which arent deterministic)
+
+            Manageemnt is required to alow robust decisions even when data is imperfect
+
+            Approaches:
+                1)Bayesian Networks
+                    use directed acyclic graphs to model probabalistic relationships
+                
+                2)Hidden Markov Models
+                    handles sequential data where the true system states are hidden
+                
+                3)Markov Decision Processes
+                    model decision making under uncertainty through states and rewards etc
+                
+            Frameworks:
+                1)Dempster shafer theory
+                    generalised probability by modeling degrees of belief
+                
+                2)Belief Networks
+                    extend bayesian networks by allowing imprecise probabilities 
+                
+                3)Case Based Reasoning
+                    solving problems by refrencing previous cases
+                
+                
+
+
+                        
+
+
 
 
         
