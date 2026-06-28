@@ -653,27 +653,184 @@ Types of Learning:
         Types:
             1)Linear Regression
                 predicts continuos values assuminh there is a linear relationship between input and output
-            
+                uses a line of best fit to predict 
+                input = independant variable
+                output = dependant variable
+
+                there is a hypothesis function that makes predictions
+
+                Gradient descent is used to train a model by minimizing the prediction error
+
+                Types:
+                    1)Simple
+                        only one dependant and independant
+
+                        prediction formula:
+                            y = t+tx
+                    
+                    2)Multiple 
+                        multiple independant variable but one dependant
+
+                        prediction formula:
+                            y= t +tx1 +tx2 + tx3 ... +txn
+                        
+                Assumptions:
+                    Linearity
+                        the relationship between independant and dependant variables are linear
+                    
+                    Independence of Errors
+                        error in prediction should not affect other predictions
+                    
+                    Constant Variance
+                        errors have equal spread across all vakues of the independant variable(spread of values should be constant)
+                    
+                    Normality
+                        errors should follow a normal distribution
+                    
+                    Multicollinearity
+                        input variables shouldnt be closely related(relative)
+                    
+                    Additivity
+                        the effect on Y is the sum of effects from each X
+
             2)Logistic Regression
                 predicts binary output variable
-            
+
+                Types:
+                    1)Binomial 
+                        used when the dependant variable has binary 
+                    
+                    2)Multinomial
+                        used when the dependant has three or more categories
+                    
+                    3)Ordinal
+                        dependat has three or more categories with a natural order(it considers the order when making predictions)
+                    
+                Assumptions
+                    independent observations
+                        each data points is independant of others
+                    
+                    Binary dependent 
+                        the target variable is binary (T or F not applicable to multimodal)
+                    
+                    Linearity of Log Odds
+                        independant variable shave linear relationship with the lof odds of the dependant variable
+                    
+                    No Extreme outlers
+
+                    Large Sample size
+
             3)Decision trees
                 uses tree where each node is a decition and each leaf is an outcome
             
             4)Random Forrest
                 combines decision trees 
+
+                Assumptions:
+                    Each tree mmakes its own predictions irrelevant of others
+
+                    trees are built with random samples
+
+                    Enough data ensures trees are different and learn unique patterns and variety
+
+                    Different predictions improve accuracy
             
             5)Support Vector Machine
                 seperated data into classes using a boumdary
+                finds the best boundary plane between diferent classes of data
+
+                Concepts:
+                    HyperPlane
+                        decision boundary seperating classes
+                    
+                    Support Vectors
+                        closest data points to the hypper plane
+                    
+                    Margin
+                        distance between hyperplane and support vectors
+                    
+                    Kernel
+                        maps data to a higher dimensional plane
+                    
+                    Hard Margin
+                        a maximum margin that seperates data with no missclassifications
+                    
+                    Soft Margin
+                        aallows for some miscalculations by using slack variables
+
+                    C
+                        a regularisation term balancing margin  penalties and rewards, a higher c forces stricter penalty for miscalcs
+                    
+                    Hinge Loss
+                        a loss function penalizing misscalced points
+                    
+                    Dual Problem
+                        solving lagrange multipliers associated with support vectors, allows kernal trick
             
             6)K-Nearest Neighbours
                 predicts based off of closest data points
+                lazy learner algorithm
+
+                K for nearest neighbour or neighbours
+
+                uses:
+                    validation for selecting K:
+                        Cross validation
+
+                        Elbow method
+
+                        Odd values
+                
+                calculates a distance between prediction and K
             
             7)Gradiemt Boosting
                 corrects errors of previous models to improve
             
             8)Naive Bayes
                 uses Baues theorem assuming features are independant
+                predicts the category of a data point using probability 
+
+                ie: if all of one group in one area then more data from group should be in that area
+
+                Assumptions:
+                    Feature Independence
+
+                    Continuos features are normally distributed
+
+                    Discrete features have multinomial distributions
+
+                    Features are important
+
+                    All Data is present
+
+    Semi-Supervised:
+        uses small amounts of labeled data and large amounts of unlabeled data to improve model performance
+
+        Working:
+            Self Training
+                ,odel is trained on labeled data then predicts labels for unlabeled data adding high confidence predictions to the labeled set
+
+            Co Training
+                two models trained on different feature subsets of data model labels unlabeled data for the other (peer learning)
+            
+            MultiView
+                a variation of cotraining where models train on different daata representations to predict the same outputs
+            
+            Graph based
+                data represented as nodes on graph and esges as imilarities of data points
+                labels propatgated from labeled nodes to unlabeled ones based on graph connectivity
+            
+        Limitations:
+            requires good architecture and hyper prarameters
+
+            Unlabeled data may contain errors
+
+            relies on assumptions such as data consistency which may not be true to every case
+
+            assessing performance is difficult due to limited labeled data
+    
+    Unsupervised:
+
 
 
 
