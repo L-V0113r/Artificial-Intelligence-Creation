@@ -830,6 +830,87 @@ Types of Learning:
             assessing performance is difficult due to limited labeled data
     
     Unsupervised:
+        model works without labelled data learning patterns without human input(labels or preidentified patterns)
+
+        Types:
+            1)Clustering
+                groups unlabeled data into clusters of similarity in order to find patterns relationships without prior knowledge
+
+                K means clustering
+                    group into clusters by applying KNN where k represents the number of groups we can classify into
+
+                    steps:
+                        Initialisation
+                            (selecting cluster centroids)
+                        
+                        Assignment Step
+                            data points assigned to centroids to cluster
+                        
+                        Update
+                            recalculate the centroids
+                        
+                        Repeat
+                            repeat until centroids dont change
+                
+                Density based clustering:
+                    DBSCAN groups data points closely packed togehter and marks outliers as noise
+
+                    Paramaters:
+                        1)eps
+                            radius of neighbourhood around a point(if less than or equal to eps then points considered neighbourly)
+                            analyze k-distance 
+                        
+                        2)MinPts
+                            minimum points required within eps radius to form a dense region
+
+            2)Association Rule Learning
+                rule based learning in form of if then rules
+
+                Hierarchical
+                    groups into a tree structure
+                    
+                    Dendrogram
+                        family tree of clusters
+                        shows how points or subgroups merge together into different groups
+                    
+                    Types:
+                        Agglomerative
+                            bottom up approach(point to sub to group)
+                        
+                        Divisive
+                            top down(Group to sub to point)
+                        
+                    Methods:
+                        for grouping clusters diff  methods:
+                            Min
+                                the minimum distance between any two points of the cluster
+                            
+                            Max
+                                the maximum distance between any two points of the cluster
+                            
+                            Group Average
+                                average distance between points
+                            
+                            Wards
+                                similarity of two clusters based on increase in squared error when merged
+
+            3)Dimensionality Reduction
+                decreasing the number of features or variables in a dataset while retaining as much og info as possible
+
+                Principality component analysis:
+                    PCA reduces features in a dataset by correlating the most important information or overarching into a different dataset
+
+                    (very cool uses eigenvectors and values)
+    
+    Reinforcement Learning: 
+        
+                
+
+                
+            
+            
+
+            
 
 
 
